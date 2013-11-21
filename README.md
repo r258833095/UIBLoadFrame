@@ -11,6 +11,7 @@ UIBLoadFrame
     [self.window addSubview:viewLoad];
     
 需要用到的地方使用通知：
+
     [[NSNotificationCenter defaultCenter] postNotificationName:@"loadFrame" object:@"show"];
     
     // show:为  请稍等
