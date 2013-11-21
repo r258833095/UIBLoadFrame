@@ -4,7 +4,9 @@ UIBLoadFrame
 加载框
 
 使用方法：
+
     //加在window层上方
+    
     UIBLoadFrame *viewLoad =[[UIBLoadFrame alloc]init];
     [self.window addSubview:viewLoad];
     
